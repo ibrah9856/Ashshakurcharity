@@ -10,6 +10,8 @@ const NOVASTART=()=>{
 
         </header>
 
+        <img src="">
+
         
         
     `)
