@@ -7,10 +7,16 @@ body{
 }
 
 header{
+    position: relative;
     background: green;
 }
 
 .LeftText{
     color: #fff;
     margin-left: 0.1rem;
+}
+
+.CompanyLogo{
+    width: 95%;
+    height: 50%;
 }

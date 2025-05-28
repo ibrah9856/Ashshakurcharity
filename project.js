@@ -10,7 +10,7 @@ const NOVASTART=()=>{
 
         </header>
 
-        <img src="">
+        <img class="CompanyLogo" src="https://ibrah9856.github.io/Ashshakurcharity/Assets/logo.jpg">
 
         
         
