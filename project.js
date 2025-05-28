@@ -4,7 +4,7 @@ const NOVASTART=()=>{
 
         <header>
 
-            <p class="LeftText">Ash shakur Charity and Orphanage Aid</p>
+            <p class="LeftText">Ash Shakur Charity and Orphanage Aid</p>
 
             <img class="RightIcon" src="${WHITEMENUICON}"/>
 
