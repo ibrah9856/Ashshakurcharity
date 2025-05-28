@@ -96,7 +96,7 @@ const CONTACTUSPAGE=()=>{
             
             <p class='CompanyName'>Ash Shakur Charity and Orphanage Aid</p>
 
-            <img class='RightIcon' src='${WHITEPHONEICON}'/>
+            <img class='RightIcon' onclick='CALLUS()' src='${WHITEPHONEICON}'/>
 
         </header>
 
@@ -120,18 +120,42 @@ const CONTACTUSPAGE=()=>{
 
         <div id='ContactHolder' class='TopNav'>
 
-            <img class='Icon' src='${WHITEINSTAGRAMICON}'/>
+            <img class='Icon' src='${WHITEINSTAGRAMICON}' onclick='INSTAGRAMUS()' />
 
-            <img class='Icon' src='${WHITEWHATSAPPICON}'/>
+            <img class='Icon' src='${WHITEWHATSAPPICON}' onclick='WHATSAPPUS()' />
 
             <img class='Icon' src='${WHITEFACEBOOKICON}'/>
 
-            <img class='Icon' src='${WHITEGMAILICON}'/>
+            <img class='Icon' src='${WHITEGMAILICON}' onclick='EMAILUS()'/>
         
         </div>
 
         <br><br>
 
     `);
+
+};
+
+const CALLUS=()=>{
+
+    CALL('+256705665894');
+
+};
+
+const EMAILUS=()=>{
+
+    GMAIL('ashshakurcharityandorphanageai@gmail.com');
+
+};
+
+const WHATSAPPUS=()=>{
+
+    WEBSITE('https://wa.me/256789467876');
+
+};
+
+const INSTAGRAMUS=()=>{
+
+    WEBSITE('https://www.instagram.com/ash_shakur_charity_?igsh=ZXlrMmNqc3poYTh6');
 
 };
