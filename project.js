@@ -9,6 +9,8 @@ const NOVASTART=()=>{
             <img class="RightIcon" src="${WHITEMENUICON}"/>
 
         </header>
+
+        
         
     `)
 

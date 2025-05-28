@@ -2,6 +2,10 @@
     color: black;
 }
 
+body{
+    overflow-y: auto;
+}
+
 header{
     background: green;
 }
