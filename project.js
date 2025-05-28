@@ -104,6 +104,8 @@ const CONTACTUSPAGE=()=>{
 
         <h1>Fill the Form Below</h1>
 
+        <br>
+
         <input class='RoundInput' placeholder='Enter Your Name'/>
 
         <input class='RoundInput' placeholder='Enter Your Email'/>
