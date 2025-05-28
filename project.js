@@ -134,7 +134,18 @@ const CONTACTUSPAGE=()=>{
 
         <br><br>
 
+        <p class='PoweringCompany' onclick='POWERUS()'>Powered by Elite Robust Ontology</p>
+
+        <br>
+
     `);
+
+};
+
+
+const POWERUS=()=>{
+
+    WEBSITE('https://eroinnovations.site');
 
 };
 
