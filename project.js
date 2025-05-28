@@ -4,6 +4,12 @@ const NOVASTART=()=>{
 
 };
 
+const HOMEPAGEROUTER=()=>{
+
+    ROUTE('',HOMEPAGE,'HOMEPAGE');
+
+};
+
 const HOMEPAGE=()=>{
 
         DISPLAY("",`
@@ -26,7 +32,7 @@ const HOMEPAGE=()=>{
 
             <p>Our Projects</p>
 
-            <p>Contact Us</p>
+            <p onclick='CONTACTUSPAGEROUTER()'>Contact Us</p>
 
         </div>
 
@@ -72,4 +78,60 @@ const MENUCLOSE=()=>{
 
     });
  
+};
+
+const CONTACTUSPAGEROUTER=()=>{
+
+    ROUTE(' ',CONTACTUSPAGE,'HOMEPAGE');
+
+};
+
+const CONTACTUSPAGE=()=>{
+
+    DISPLAY('',`
+
+        <header>
+
+            <img onclick='HOMEPAGEROUTER()' class='LeftIcon' src='${WHITEBACKICON}'/>
+            
+            <p class='CompanyName'>Ash Shakur Charity and Orphanage Aid</p>
+
+            <img class='RightIcon' src='${WHITEPHONEICON}'/>
+
+        </header>
+
+        <br><br>
+
+        <h1>Fill the Form Below</h1>
+
+        <input class='RoundInput' placeholder='Enter Your Name'/>
+
+        <input class='RoundInput' placeholder='Enter Your Email'/>
+
+        <textarea placeholder='Compose Your Message'></textarea>
+
+        <button class='SendButton'>Send Message</button>
+
+        <br><br>
+
+        <h3>OR</h3>
+
+        <br>
+
+        <div id='ContactHolder' class='TopNav'>
+
+            <img class='Icon' src='${WHITEINSTAGRAMICON}'/>
+
+            <img class='Icon' src='${WHITEWHATSAPPICON}'/>
+
+            <img class='Icon' src='${WHITEFACEBOOKICON}'/>
+
+            <img class='Icon' src='${WHITEGMAILICON}'/>
+        
+        </div>
+
+        <br><br>
+
+    `);
+
 };

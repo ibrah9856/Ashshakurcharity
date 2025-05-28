@@ -3,7 +3,8 @@
 }
 
 body{
-    overflow-y: auto;
+    position: relative;
+    overflow-y: auto !important;
 }
 
 header{
@@ -31,4 +32,22 @@ header{
 
 #MenuClose{
     display: none;
+}
+
+input{
+    color: black;
+}
+
+textarea{
+    color: black;
+}
+
+.SendButton{
+    background: forestgreen;
+}
+
+#ContactHolder{
+    background: forestgreen;
+    width: 93%;
+    margin: auto;
 }
