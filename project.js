@@ -12,7 +12,7 @@ const NOVASTART=()=>{
 
         <img class="CompanyLogo" src="https://ibrah9856.github.io/Ashshakurcharity/Assets/logo.jpg">
 
-        
+        <p>Test</p>
         
     `)
 
