@@ -20,9 +20,10 @@ header{
 }
 
 .CompanyLogo{
-    width: 100px;
+    width: 80px;
     height: 80px;
     margin-left: 0.2rem;
+    border-radius: 50px;
 }
 
 #Menu{
