@@ -15,8 +15,8 @@ header{
 
 .CompanyName{
     color: #ffffff;
-    margin-right: 10%;
     font-size: 20px;
+    width: 50%;
 }
 
 .CompanyLogo{
