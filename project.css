@@ -23,3 +23,12 @@ header{
     height: 80px;
     margin-left: 0.2rem;
 }
+
+#Menu{
+   background: transparent;
+   display: none;
+}
+
+#MenuClose{
+    display: none;
+}
