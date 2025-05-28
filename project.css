@@ -1,0 +1,12 @@
+*{
+    color: black;
+}
+
+header{
+    background: green;
+}
+
+.LeftText{
+    color: #fff;
+    margin-left: 0.1rem;
+}
