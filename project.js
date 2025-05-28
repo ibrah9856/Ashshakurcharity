@@ -126,7 +126,7 @@ const CONTACTUSPAGE=()=>{
 
             <img class='Icon' src='${WHITEWHATSAPPICON}' onclick='WHATSAPPUS()' />
 
-            <img class='Icon' src='${WHITEFACEBOOKICON}'/>
+            <img class='Icon' src='${WHITEFACEBOOKICON}' onclick='FACEBOOKUS()' />
 
             <img class='Icon' src='${WHITEGMAILICON}' onclick='EMAILUS()'/>
         
@@ -159,5 +159,11 @@ const WHATSAPPUS=()=>{
 const INSTAGRAMUS=()=>{
 
     WEBSITE('https://www.instagram.com/ash_shakur_charity_?igsh=ZXlrMmNqc3poYTh6');
+
+};
+
+const FACEBOOKUS=()=>{
+
+    WEBSITE('https://www.facebook.com/profile.php?id=100080811854731&mibextid=ZbWKwL');
 
 };
