@@ -60,7 +60,7 @@ const HOMEPAGE=()=>{
 
         <h1 class='Season'>QURBAN</h1>
 
-       
+        <p></p>
 
     `);
 
