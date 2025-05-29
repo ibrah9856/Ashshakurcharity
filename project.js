@@ -72,6 +72,12 @@ const HOMEPAGE=()=>{
 
         <h1 class='Season'>QURBAN</h1>
 
+        <div class='SlideDiv'>
+
+            <img src=''/>
+        
+        </div>
+
     `);
 
 };
