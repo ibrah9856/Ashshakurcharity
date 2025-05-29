@@ -46,7 +46,7 @@ const HOMEPAGE=()=>{
 
         <div class='MainImage'>
         
-            <img src='/Assets/WaterWells/waterwell main.jpg'/>
+            <img src='https://ashshakurcharity.org/Assets/waterwells/waterwellmain.jpg'/>
 
             <footer class='MainFooter'>
 
@@ -58,9 +58,19 @@ const HOMEPAGE=()=>{
 
         <br><br>
 
-        <h1 class='Season'>QURBAN</h1>
+        <h1>With Regards</h1>
 
-        <p></p>
+        <br>
+
+        <p class='LeftText'>Ash Shakur Charity and orphanage aid is a nonprofit organization dedicated to transforming lives by addressing the needs of orphans, underprevileged children, and vulnerable communities. With a mission to provide access to water and sanitation, food and clothing, Qurbani and aqeeqa, Ramadan programs, education, healthcareand shelter, we aim to create sustainable solutions that empower individuals and fosterhope.</p>
+
+        <br>
+
+        <p class='LeftText'>Since our inception, we have encouted countless lives through provideing education, supporting healthcare initiatives, and providing safe havns to those in need. Every donation and volunteer efforts brings closer to a word where every child has the opportunity to thrive.</p>
+
+        <br>
+
+        <h1 class='Season'>QURBAN</h1>
 
     `);
 
