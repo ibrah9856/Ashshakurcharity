@@ -72,11 +72,17 @@ const HOMEPAGE=()=>{
 
         <h1 class='Season'>QURBAN</h1>
 
+        <br>
+
         <div class='SlideDiv'>
 
-            <img src=''/>
+            <img src='https://ashshakurcharity.org/Assets/Quraban/main.jpg'/>
         
         </div>
+
+        <p></p>
+
+        <br><br>
 
     `);
 
