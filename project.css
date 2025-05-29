@@ -74,3 +74,24 @@ textarea{
     color: white;
     font-size: 25px;
 }
+
+#ScrollHolder{
+    background: #cdcdcd;
+    height: 200px;
+    overflow-x: auto;
+}
+
+.ScrollImages{
+    width: 50%;
+    height: 90%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.Season{
+    font-size: 30px;
+    border: 1px solid #cdcdcd50;
+    width: 50%;
+    padding: 2%;
+    border-radius: 20px;
+}

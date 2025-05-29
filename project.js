@@ -44,6 +44,22 @@ const HOMEPAGE=()=>{
             
         </div>
 
+        <div id='ScrollHolder' class='TopNav'>
+
+            <img class='ScrollImages' src='/Assets/WaterWells/waterwell main.jpg'/>
+
+            <img class='ScrollImages' src='/Assets/WaterWells/waterwell 1.jpg'/>
+
+            <img class='ScrollImages' src='/Assets/WaterWells/waterwell 2.jpg'/>
+        
+        </div>
+
+        <br><br>
+
+        <h1 class='Season'>QURBAN</h1>
+
+       
+
     `);
 
 };
