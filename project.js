@@ -1,4 +1,8 @@
+const URL='https://docs.google.com/spreadsheets/d/1x_Nruw60vwcWJKkMUWpNncGzQSoPgHoMP2X8so3eS8I/edit?usp=sharing';
+
 const NOVASTART=()=>{
+
+    VISITOR(URL,'Users');
 
    ROUTE('',HOMEPAGE,'HOMEPAGE');
 
