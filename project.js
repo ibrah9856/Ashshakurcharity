@@ -94,7 +94,7 @@ const HOMEPAGE=()=>{
 
         <div class='SlideDiv'>
 
-            <img class='QurabanImage' src='https://ashshakurcharity.org/Assets/Quraban/main.jpg'/>
+            <img class='QurabanImage' src='https://ashshakurcharity.org/Assets/hotmeal/main.jpg'/>
         
         </div>
 
