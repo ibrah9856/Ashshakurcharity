@@ -107,7 +107,7 @@ textarea{
 .SlideDiv{
     position: relative;
     height: 300px;
-    background: #cdcdcd50;
+    background: transparent;
 }
 
 #QuraBanMessage{
