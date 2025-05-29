@@ -120,6 +120,38 @@ const HOMEPAGE=()=>{
 
         <br><br>
 
+        <h1 class='Season'>MOSQUE CONSTRUCTION</h1>
+
+        <br>
+
+        <div class='SlideDiv'>
+
+            <img class='QurabanImage' src='https://ashshakurcharity.org/Assets/hotmeal/main.jpg'/>
+        
+        </div>
+
+        <br>
+
+        <p id='QuraBanMessage' class='CenterText'>Distributing food packs to combat hunger to the most needy families and vulunerable communities.</p>
+
+        <br><br>
+
+        <h1 class='Season'>QURAN DISTRIBUTION</h1>
+
+        <br>
+
+        <div class='SlideDiv'>
+
+            <img class='QurabanImage' src='https://ashshakurcharity.org/Assets/hotmeal/main.jpg'/>
+        
+        </div>
+
+        <br>
+
+        <p id='QuraBanMessage' class='CenterText'>Distributing food packs to combat hunger to the most needy families and vulunerable communities.</p>
+
+        <br><br>
+
         <p class='PoweringCompany' onclick='POWERUS()'>Powered by Elite Robust Ontology</p>
 
         <br>
