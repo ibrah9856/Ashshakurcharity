@@ -1,20 +1,33 @@
 const NOVASTART=()=>{
 
-    DISPLAY("",`
+   ROUTE('',HOMEPAGE,'HOMEPAGE');
+
+};
+
+const HOMEPAGEROUTER=()=>{
+
+    ROUTE('',HOMEPAGE,'HOMEPAGE');
+
+};
+
+const HOMEPAGE=()=>{
+
+        DISPLAY("",`
 
         <header>
 
-            <p class="LeftText">Ash Shakur Charity and Orphanage Aid</p>
+            <img class="CompanyLogo" src="https://ibrah9856.github.io/Ashshakurcharity/Assets/logo.jpg">
+        
+            <p class='CompanyName'>Ash Shakur Charity and Orphanage Aid</p>
 
-            <img class="RightIcon" src="${WHITEMENUICON}"/>
+            <img id='MenuOpen' onclick='MENUOPEN()' class="RightIcon" src="${WHITEMENUICON}"/>
+
+            <img id='MenuClose' onclick='MENUCLOSE()' class="RightIcon" src="${WHITECLOSEICON}"/>
 
         </header>
 
         <img class="CompanyLogo" src="https://ibrah9856.github.io/Ashshakurcharity/Assets/logo.jpg">
 
-        <div class="TopNav">
-        
-        </div>
         
         
     `)

@@ -3,20 +3,57 @@
 }
 
 body{
-    overflow-y: auto;
+    position: relative;
+    overflow-y: auto !important;
 }
 
 header{
     position: relative;
     background: green;
+    height: 100px;
 }
 
-.LeftText{
-    color: #fff;
-    margin-left: 0.1rem;
+.CompanyName{
+    color: #ffffff;
+    font-size: 20px;
+    width: 50%;
 }
 
 .CompanyLogo{
-    width: 95%;
-    height: 50%;
+    width: 80px;
+    height: 80px;
+    margin-left: 0.2rem;
+    border-radius: 50px;
+}
+
+#Menu{
+   background: transparent;
+   display: none;
+}
+
+#MenuClose{
+    display: none;
+}
+
+input{
+    color: black;
+}
+
+textarea{
+    color: black;
+}
+
+.SendButton{
+    background: forestgreen;
+}
+
+#ContactHolder{
+    background: forestgreen;
+    width: 93%;
+    margin: auto;
+}
+
+.PoweringCompany{
+    color: forestgreen;
+    font-size: 18px;
 }
