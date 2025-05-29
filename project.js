@@ -46,7 +46,7 @@ const HOMEPAGE=()=>{
 
         <div class='MainImage'>
         
-            <img src='/Assets/WaterWells/waterwell main.jpg'/>
+            <img src='https://ashshakurcharity.org/Assets/WaterWells/waterwell main.jpg'/>
 
             <footer class='MainFooter'>
 
