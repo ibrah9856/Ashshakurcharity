@@ -20,6 +20,8 @@ const HOMEPAGE=()=>{
         
             <p class='CompanyName'>Ash Shakur Charity and Orphanage Aid</p>
 
+            <p class='Motto'>"Helping the poor orphans and the needy people"</p>
+
             <img id='MenuOpen' onclick='MENUOPEN()' class="RightIcon" src="${WHITEMENUICON}"/>
 
             <img id='MenuClose' onclick='MENUCLOSE()' class="RightIcon" src="${WHITECLOSEICON}"/>
@@ -141,7 +143,6 @@ const CONTACTUSPAGE=()=>{
     `);
 
 };
-
 
 const POWERUS=()=>{
 

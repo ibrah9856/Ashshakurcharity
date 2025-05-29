@@ -57,3 +57,11 @@ textarea{
     color: forestgreen;
     font-size: 18px;
 }
+
+.Motto{
+    position: absolute;
+    color: white;
+    bottom: 5%;
+    left: 25%;
+    font-size: 12px;
+}
