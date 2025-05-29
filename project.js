@@ -32,7 +32,7 @@ const HOMEPAGE=()=>{
 
             <p>About Us</p>
 
-            <p>Our Projects</p>
+            <p onclick='PROJECTPAGEROUTER()'>Our Projects</p>
 
             <p onclick='CONTACTUSPAGEROUTER()'>Contact Us</p>
 
@@ -108,6 +108,12 @@ const CONTACTUSPAGE=()=>{
 
         </header>
 
+        <div class='TopNav' id='DonateSection'>
+
+            <p class='Donate'>Donate</p>
+            
+        </div>
+
         <br><br>
 
         <h1>Fill the Form Below</h1>
@@ -150,7 +156,6 @@ const CONTACTUSPAGE=()=>{
 
 };
 
-
 const POWERUS=()=>{
 
     WEBSITE('https://eroinnovations.site');
@@ -184,5 +189,35 @@ const INSTAGRAMUS=()=>{
 const FACEBOOKUS=()=>{
 
     WEBSITE('https://www.facebook.com/profile.php?id=100080811854731&mibextid=ZbWKwL');
+
+};
+
+const PROJECTPAGEROUTER=()=>{
+
+    ROUTE(' ',PROJECTPAGE,'HOMEPAGE');
+
+};
+
+const PROJECTPAGE=()=>{
+
+    DISPLAY('',`
+
+        <header>
+
+            <img onclick='HOMEPAGEROUTER()' class='LeftIcon' src='${WHITEBACKICON}'/>
+            
+            <p class='CompanyName'>Ash Shakur Charity and Orphanage Aid</p>
+
+            <img class='RightIcon' onclick='CALLUS()' src='${WHITEPHONEICON}'/>
+
+        </header>
+
+        <div class='TopNav' id='DonateSection'>
+
+            <p class='Donate'>Donate</p>
+            
+        </div>
+
+    `);
 
 };
