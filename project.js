@@ -28,6 +28,8 @@ const HOMEPAGE=()=>{
 
         </header>
 
+        <br>
+
         <div class='TopNav' id='Menu' >
 
             <p>About Us</p>
