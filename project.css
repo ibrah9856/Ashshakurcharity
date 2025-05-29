@@ -105,5 +105,15 @@ textarea{
 }
 
 .SlideDiv{
-    
+    position: relative;
+    height: 300px;
+    background: transparent;
+}
+
+#QuraBanMessage{
+    padding: 0 10%;
+}
+
+.QurabanImage{
+    object-fit: contain;
 }

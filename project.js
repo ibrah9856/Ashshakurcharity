@@ -72,11 +72,35 @@ const HOMEPAGE=()=>{
 
         <h1 class='Season'>QURBAN</h1>
 
+        <br>
+
         <div class='SlideDiv'>
 
-            <img src=''/>
+            <img class='QurabanImage'  src='https://ashshakurcharity.org/Assets/Quraban/main.jpg'/>
         
         </div>
+
+        <br>
+
+        <p id='QuraBanMessage' class='CenterText'>It is neither their meat nor their bolld that reaches Allah but it is piety from you that reaches Him.</p>
+
+        <br><br>
+
+            <h1 class='Season'>HOT MEAL</h1>
+
+        <br>
+
+        <div class='SlideDiv'>
+
+            <img class='QurabanImage' src='https://ashshakurcharity.org/Assets/Quraban/main.jpg'/>
+        
+        </div>
+
+        <br>
+
+        <p id='QuraBanMessage' class='CenterText'>Every Child Deserves a full plate</p>
+
+        <br><br>
 
     `);
 
