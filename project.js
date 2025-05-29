@@ -88,7 +88,7 @@ const HOMEPAGE=()=>{
 
         <br><br>
 
-            <h1 class='Season'>HOT MEAL</h1>
+        <h1 class='Season'>HOT MEAL</h1>
 
         <br>
 
@@ -101,6 +101,22 @@ const HOMEPAGE=()=>{
         <br>
 
         <p id='QuraBanMessage' class='CenterText'>Every Child Deserves a full plate</p>
+
+        <br><br>
+
+        <h1 class='Season'>FOOD PACKS</h1>
+
+        <br>
+
+        <div class='SlideDiv'>
+
+            <img class='QurabanImage' src='https://ashshakurcharity.org/Assets/hotmeal/main.jpg'/>
+        
+        </div>
+
+        <br>
+
+        <p id='QuraBanMessage' class='CenterText'>Distributing food packs to combat hunger to the most needy families and vulunerable communities.</p>
 
         <br><br>
 
