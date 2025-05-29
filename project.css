@@ -74,3 +74,32 @@ textarea{
     color: white;
     font-size: 25px;
 }
+
+.MainImage{
+    position: relative;
+    height: auto;
+    width: 95%;
+    margin-top: 2%;
+    border-radius: 10px;
+}
+
+.Season{
+    font-size: 30px;
+    border: 1px solid #cdcdcd50;
+    width: 50%;
+    padding: 2%;
+    border-radius: 20px;
+}
+
+.MainFooter{
+    background: #00000080;
+    height: 50%;
+}
+
+.Message{
+    color: #ffffff;
+}
+
+.SubMessage{
+    color: #ffffff;
+}
