@@ -38,6 +38,12 @@ const HOMEPAGE=()=>{
 
         </div>
 
+        <div class='TopNav' id='DonateSection'>
+
+            <p class='Donate'>Donate</p>
+            
+        </div>
+
     `);
 
 };

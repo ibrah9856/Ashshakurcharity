@@ -65,3 +65,12 @@ textarea{
     left: 25%;
     font-size: 12px;
 }
+
+#DonateSection{
+    background: gray;
+}
+
+.Donate{
+    color: white;
+    font-size: 25px;
+}
