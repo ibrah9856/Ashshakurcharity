@@ -76,7 +76,7 @@ const HOMEPAGE=()=>{
 
         <div class='SlideDiv'>
 
-            <img src='https://ashshakurcharity.org/Assets/Quraban/main.jpg'/>
+            <img class='QurabanImage'  src='https://ashshakurcharity.org/Assets/Quraban/main.jpg'/>
         
         </div>
 

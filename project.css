@@ -113,3 +113,7 @@ textarea{
 #QuraBanMessage{
     padding: 0 10%;
 }
+
+.QurabanImage{
+    object-fit: contain;
+}
