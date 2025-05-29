@@ -75,17 +75,12 @@ textarea{
     font-size: 25px;
 }
 
-#ScrollHolder{
-    background: #cdcdcd;
-    height: 200px;
-    overflow-x: auto;
-}
-
-.ScrollImages{
-    width: 50%;
-    height: 90%;
-    margin-left: 2%;
-    margin-right: 2%;
+.MainImage{
+    position: relative;
+    height: auto;
+    width: 95%;
+    margin-top: 2%;
+    border-radius: 10px;
 }
 
 .Season{
@@ -94,4 +89,17 @@ textarea{
     width: 50%;
     padding: 2%;
     border-radius: 20px;
+}
+
+.MainFooter{
+    background: #00000080;
+    height: 50%;
+}
+
+.Message{
+    color: #ffffff;
+}
+
+.SubMessage{
+    color: #ffffff;
 }

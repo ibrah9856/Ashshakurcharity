@@ -44,13 +44,15 @@ const HOMEPAGE=()=>{
             
         </div>
 
-        <div id='ScrollHolder' class='TopNav'>
+        <div class='MainImage'>
+        
+            <img src='/Assets/WaterWells/waterwell main.jpg'/>
 
-            <img class='ScrollImages' src='/Assets/WaterWells/waterwell main.jpg'/>
+            <footer class='MainFooter'>
 
-            <img class='ScrollImages' src='/Assets/WaterWells/waterwell 1.jpg'/>
-
-            <img class='ScrollImages' src='/Assets/WaterWells/waterwell 2.jpg'/>
+                <p class='Message'>Our Prophet Muhammed is reported to have said ,"<b class='SubMessage'>The Best Form of Charity is to give someone water to drink.</b> "</p>
+            
+            </footer>
         
         </div>
 
