@@ -104,6 +104,10 @@ const HOMEPAGE=()=>{
 
         <br><br>
 
+        <p class='PoweringCompany' onclick='POWERUS()'>Powered by Elite Robust Ontology</p>
+
+        <br>
+
     `);
 
 };
